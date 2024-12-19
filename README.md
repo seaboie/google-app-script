@@ -37,9 +37,6 @@ npm init -y
 npm i -D @types/google-apps-script
 ```  
 
-## ✨ get auto complete code  
-
-
 - create some files  
 ```
 touch LICENSE .gitignore README.md
