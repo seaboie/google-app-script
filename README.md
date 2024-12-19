@@ -48,49 +48,53 @@ touch LICENSE .gitignore README.md
 ## ✨ Clone project to vscode
 - create `src` folder in vscode
 
-- find project Id in Apps Script browser project  
+- find project Id in Apps Script browser project
 
-<video  controls>
-  <source src="https://raw.githubusercontent.com/seaboie/images/main/images/vdo/getId.mp4
-  " type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/66da7190-1270-42fa-b3d6-0560401ca6d4
 
 - clone app script project by ID: into `src` folder
+In terminal
 ```
 clasp clone `<Id Project>` --rootDir src
 ```  
 
-- move `.clasp.json` to root  
+- move `.clasp.json` to root
+In terminal  
 ```
 mv src/.clasp.json .
 ```  
 
 ## push to Apps Script browser  
+In terminal  
 ```
 clasp push
 ```
 
 ## pull to local machine  
+In terminal  
 ```
 clasp pull
 ```  
 
 ## ✨ push and watch changes  
+In terminal
 ```
 clasp push -w
 ```  
 
-## check files list that push to Apps Script browser
+## check files list that push to Apps Script browser  
+In terminal  
 ```
 clasp status
 ```
 ## logout  
+In terminal  
 ```
 clasp logout
 ```
 
-## Open the Apps Script browser on script.google.com:
+## Open the Apps Script browser on script.google.com:  
+In terminal
 ```
 clasp open
 ```
