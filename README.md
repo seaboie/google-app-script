@@ -245,3 +245,7 @@ clasp run 'myFunction'
 - [Google Clasp :](https://github.com/google/clasp)  
 - [Develop Google Apps Script Locally in VSCode using CLASP : On Youtube ](https://www.youtube.com/watch?v=lwxiEB-Mnys)
 - [ครูอภิวัฒน์"สอนสร้างสื่อ : On Youtube"](https://www.youtube.com/@KruApiwat/playlists)  
+---  
+### Google Sheet  
+- [10 ฟีเจอร์โครตว้าว สำหรับคนใช้งาน Google Sheets ทำงานเร็วขึ้น เหนื่อยน้อยลงเป็นเท่าตัว!](https://www.youtube.com/watch?v=5eZeC0f2DBo)  
+
