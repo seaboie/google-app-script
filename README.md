@@ -3,6 +3,7 @@
 ### Watch on Youtube  
 📺  📺  📺 [Youtube : Create new apps script project in vscode use Clasp](https://youtu.be/UCjwkfuwJj0)  
 📺  📺  📺 [Youtube : Clone google apps script to VSCode use Clasp](https://youtu.be/LU-x0t22Onw)  
+📺 📺 📺 [START learning google apps script](https://www.youtube.com/watch?v=RRQvySxaCW0&list=PLv9Pf9aNgemt82hBENyneRyHnD-zORB3l&index=2)  
 
 ## Google Workspace  
 ### [clasp docs](https://developers.google.com/apps-script/guides/clasp)  
@@ -240,6 +241,49 @@ clasp run 'myFunction'
 
 ---  
 
+## Deployment  
+
+- Deploy the Script  
+```bash
+clasp deploy --description "Version 1.0.1"
+```  
+or for short command
+```bash
+clasp deploy -d "Version 1.0.1"
+```  
+
+- List deployments  
+```bash
+clasp deployments
+```  
+This command will list all deployments along with their IDs and descriptions. Note the deployment ID of your API executable deployment.  
+
+```bash
+krit@Macintosh basic-web-app % clasp deployments
+10 Deployments.
+- AKfycbxRQv5zQHd7mrGkwDuxVJCN4Hd7baCS4TMfBERUtmY @HEAD 
+- AKfycbyjZf7Lpe-TpcVmNr5NT_ybcAn4dM_lUpicxnOJJbmBWbdYrgapUwaBxp4B6kK8qUYt @9 - add dropdown <select>
+- AKfycbxkIXkPFMKn08VL0N5CEYd5vHeOAULIAiVR6mYtvyjDVHeLRER_g1ORDXZzxJwUChSs @10 - add Dropdown element
+- AKfycbwbXwXxIXVQ3tVTsDqmZ2qOAihUBJaaXCLUBZlWiCfgtoDnRq1XZoYHchby2oK6oY0 @7 - Version 1.2.2
+- AKfycbwkDem1tNyyNcfR2tHDAs10E1pU_BOKGmVPC_S8HSdTPED5u2blb8fGDRv75TnVmey6 @6 - Version 1.2.1
+- AKfycbw3Kpt3uIVLFmtDsCxupxTw8nT7FY22VWnwW3FLDE3weIW2jhT8EvnZM0l9dEubuDUi @5 - Version 1.2.0
+- AKfycbz-2rqjRK_IYMFLZjdD3BaBBQeNQNMYh2fXzlBxf1ajsXFF-ysmQPnATIRrIs_brfkf @4 - can insert data to sheet
+- AKfycbylahsIzG6Z-2UV9kKa1elOl6c-dU-J1Gq7jCQSv-VxIcr7CdNHAKq5KSZNRTf2SaBY @3 - v3
+- AKfycbyDGKcw1qvyhiIXAC-n_z5FAHDenCxnWHvCXLlYjqQbyLaJQiJXRiQB6DvESACn4d9o @1 - v1
+- AKfycbwiqMv_34Gk8WFUsqlQmHsy2z43ZhplvfvF04hOHyvDPh7O-0mUA7WgEudO4rDuEO-Q @8 - Version 1.2.3: version 8
+krit@Macintosh basic-web-app %  
+```  
+
+
+> To get `ID` for development deploy is `@HEAD`  
+```bash
+https://script.google.com/macros/s/<developmentId>/dev
+```  
+
+> To get `ID` for specific version is `@version`  
+```bash
+https://script.google.com/macros/s/<Version Id>/exec
+```
 
 ## Resource  
 - [Google Clasp :](https://github.com/google/clasp)  
