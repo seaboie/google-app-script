@@ -1,6 +1,7 @@
 # google-app-script  
 
 ### Watch on Youtube  
+📺  📺  📺 [ ✨ ✨ ✨ Google Apps Script Tutorial ](https://www.youtube.com/watch?v=KxdCIbeO4Uk&t=230s)  
 📺  📺  📺 [Youtube : Create new apps script project in vscode use Clasp](https://youtu.be/UCjwkfuwJj0)  
 📺  📺  📺 [Youtube : Clone google apps script to VSCode use Clasp](https://youtu.be/LU-x0t22Onw)  
 📺 📺 📺 [START learning google apps script](https://www.youtube.com/watch?v=RRQvySxaCW0&list=PLv9Pf9aNgemt82hBENyneRyHnD-zORB3l&index=2)  
