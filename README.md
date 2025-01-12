@@ -6,6 +6,20 @@
 📺  📺  📺 [Youtube : Clone google apps script to VSCode use Clasp](https://youtu.be/LU-x0t22Onw)  
 📺 📺 📺 [START learning google apps script](https://www.youtube.com/watch?v=RRQvySxaCW0&list=PLv9Pf9aNgemt82hBENyneRyHnD-zORB3l&index=2)  
 
+---  
+
+### 🛠️ 🛠️ 🛠️  Google Sheet ( `Learning` )  
+- [IT around U](https://www.youtube.com/@อาจารย์โจ้)  
+- [BrilliantPy บริลเลียนท์พาย](https://www.youtube.com/@brilliantpy)   
+
+
+### 🛠️ 🛠️ 🛠️  Alert social ( `Learning` )  Telegram , Line Messaging
+- [Watchara Manyuen](https://www.youtube.com/@WatcharaManyuen)  
+
+---  
+
+---  
+
 ## Google Workspace  
 ### [clasp docs](https://developers.google.com/apps-script/guides/clasp)  
 
@@ -289,8 +303,51 @@ https://script.google.com/macros/s/<Version Id>/exec
 ## Resource  
 - [Google Clasp :](https://github.com/google/clasp)  
 - [Develop Google Apps Script Locally in VSCode using CLASP : On Youtube ](https://www.youtube.com/watch?v=lwxiEB-Mnys)
-- [ครูอภิวัฒน์"สอนสร้างสื่อ : On Youtube"](https://www.youtube.com/@KruApiwat/playlists)  
----  
-### Google Sheet  
-- [10 ฟีเจอร์โครตว้าว สำหรับคนใช้งาน Google Sheets ทำงานเร็วขึ้น เหนื่อยน้อยลงเป็นเท่าตัว!](https://www.youtube.com/watch?v=5eZeC0f2DBo)  
 
+---  
+
+## Find : Chat Id of bot telegram  
+
+- create bot  
+- Interact with your bot ( send it a message ) `first` 
+
+- command line `in Terminal`
+```bash
+curl https://api.telegram.org/bot{token}/getUpdates | jq '.'
+```
+
+#### Json Response will look like this
+```json
+{
+    "ok": true,
+    "result": [{
+        "update_id": 123456789,
+        "message": {
+            "message_id": 1,
+            "from": {
+                "id": 123456789,
+                "first_name": "User",
+                "username": "username"
+            },
+            "chat": {
+                "id": 123456789,  // This is your chat ID
+                "first_name": "User",
+                "username": "username",
+                "type": "private"
+            },
+            "date": 1642777207,
+            "text": "Hello"
+        }
+    }]
+}
+```  
+
+### 🎉 🎉 🎉 🎉 🎉 Successfully  Get only `chatID`  
+
+```bash
+curl https://api.telegram.org/bot<TOKEN>/getUpdates | jq '.result[].message.chat.id'
+```  
+`123456789`
+---  
+
+---  
